@@ -19,7 +19,6 @@ const jobsRouter = require('./routes/jobs');
 const notFoundMiddleware = require('./middleware/not-found');
 const errorHandlerMiddleware = require('./middleware/error-handler');
 const authenticateUser = require('./middleware/authentication');
-const helmet = require('helmet');
 
 app.use(express.json());
 ///// extra packages
